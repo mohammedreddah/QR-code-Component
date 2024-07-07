@@ -1,0 +1,44 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+*{
+    font-size: 15px;
+    font-family: sans-serif; /*force similar font 
+                                family*/
+}
+:root{
+    /*Colors*/
+
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+}
+body{
+    height: 110vh;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: var(--Light_gray);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--White);
+    flex-basis: 200px;
+    padding: 15px;
+    border-radius: 10px;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+.title{
+    font-weight: bold;
+    color: var(--Dark_blue);
+}
+.visit{
+    color: var(--Grayish_blue);
+    font-size: 12px;
+}
